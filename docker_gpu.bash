@@ -1,0 +1,2 @@
+docker run -it -v /home/chunwei/Documents/dodge/:/root/challenge/ --rm --runtime=nvidia \
+-e NVIDIA_VISIBLE_DEVICES=all  -p 10253:10253 -p 10254:10254 --name ddc-challenge uzhrpg/dodgedrone-challenge:base /bin/bash
